@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 def activity01(num1):
 	'''Determine if an input number is Even or Odd'''
     return

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import socket
 
 '''1.1) Take two arguments, a list and an integer. The list is a series 
