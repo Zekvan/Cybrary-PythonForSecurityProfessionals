@@ -1,0 +1,1 @@
+2017 Linux Yaz Kampı - Web Uygulama Güvenliği ve Güvenli Kod Geliştirme eğitiminde Python programlama eksikliğimi farkettim ve bu eksikliğimi kapatmak için Cybrary eğitim sitesinden Python for Security Professionals eğitimini aldım. Bu repoda eğitim sırasında yararlandığım materyalleri bulabilirsiniz.
