@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 from hashlib import md5
 import sys
 
@@ -8,9 +10,9 @@ def passcrack(pass_hash):
         m.update(str(i))
         test_hash = m.hexdigest()
         if (test_hash != pass_hash):
-            print "Failed: %s\t%s" % (test_hash, pass_hash)
+            print "Failed: %d\t=>\t%s\t != \t%s" % (i, test_hash, pass_hash)
         else:
-            print "Success: %d" % i
+            print "Success: %d\t=>\t%s " % (i, test_hash)
             return
 
 m=md5()
